@@ -42,6 +42,76 @@ cd RadioplayerAPI
 
 4. Make sure write permissions are set for the directory where the history will be saved.
 
+5. Edit the <script> in the index.php
+
+```javascript
+<script>
+            window.streams = {
+                timeRefresh: 5000,
+                stations: [
+                    {
+                        name: "Jailson Web Rádio",
+                        hash: "jailson",
+                        description: "Música sem parar",
+                        logo: "assets/jailson_logo.png",
+                        album:
+                            "assets/jailson_cover.png",
+                        cover:
+                            "assets/jailson_cover.png",
+                        api: "get_stream_title.php?url=https://stream.zeno.fm/yn65fsaurfhvv",
+                        stream_url: "https://stream.zeno.fm/yn65fsaurfhvv",
+                        tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
+                        server: "spotify",
+                        program: {
+                            time: "00:00",
+                            name: "Jailson Web Radio",
+                            description: "AO VIVO // ON AIR",
+                        },
+                        social: {
+                            facebook: "https://facebook.com/",
+                            twitter: "https://twitter.com/",
+                            instagram: "https://www.instagram.com//",
+                        },
+                        apps: {
+                            android: "#",
+                            ios: "#",
+                        },
+                    },
+                    {
+                        name: "BENDICIÓN STEREO",
+                        hash: "bendicion",
+                        description: "Bendecidos para bendecir!",
+                        logo: "assets/default.png",
+                        album:
+                            "assets/cover.png",
+                        cover:
+                            "assets/cover.png",
+                        api: "get_stream_title.php?url=https://sv2.globalhostlive.com/proxy/bendistereo/stream2",
+                        stream_url: "https://sv2.globalhostlive.com/proxy/bendistereo/stream2",
+                        tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
+                        server: "spotify",
+                        program: {
+                            time: "11:00",
+                            name: "Bendición Stereo",
+                            description: "EN VIVO // ON AIR",
+                        },
+                        social: {
+                            facebook: "https://facebook.com/BendicionStereo",
+                            twitter: "https://twitter.com/BendiStereo",
+                            instagram: "https://www.instagram.com/BendiStereo/",
+                        },
+                        apps: {
+                            android: "#",
+                            ios: "#",
+                        },
+                    },                    
+                ],
+            };
+        </script>
+
+ ```
+
+
 ## Configuration
 
 Edit the `get_stream_title.php` file to add the allowed URLs of the radio streams.
