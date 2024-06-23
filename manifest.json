@@ -1,0 +1,57 @@
+{
+  "name": "Radio Player",
+  "short_name": "Radio Player",
+  "description": "Instale nosso aplicativo e nos ouça onde quer que você esteja.",
+  "icons": [
+    {
+      "src": "assets/jailson.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/jailson.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./?mode=pwa",
+  "theme_color": "#FFF",
+  "background_color": "#FFF", 
+  "orientation": "any", 
+  "display": "standalone", 
+  "display_override": [
+    "standalone"
+  ],
+  "lang": "pt-BR", 
+  "dir": "ltr",
+  "categories": [
+    "music"
+  ],
+  "screenshots": [
+    {
+      "src": "assets/jailson.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/jailson.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/jailson.png",
+      "type": "image/png",
+      "sizes": "720x540",
+      "form_factor": "wide"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.jailsonwr.app",
+      "id": "com.jailsonwr.app"
+    }
+  ]
+}
