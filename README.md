@@ -28,7 +28,7 @@ This PHP project displays information about songs playing on Icecast/Shoutcast r
 1. Clone the repository or download the files.
 
 ```bash
-git clone https://github.com/jailsonsb2/player.git
+git clone https://github.com/jailsonsb2/RadioplayerAPI.git
 ```
 
 2. Make sure you have a web server configured to serve PHP files. If you are using WAMP, place the files in the `www` folder.
@@ -37,7 +37,7 @@ git clone https://github.com/jailsonsb2/player.git
 
 
 ```bash
-cd player
+cd RadioplayerAPI
 ```
 
 4. Make sure write permissions are set for the directory where the history will be saved.
