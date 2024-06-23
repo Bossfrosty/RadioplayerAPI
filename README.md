@@ -14,6 +14,7 @@ This PHP project displays information about songs playing on Icecast/Shoutcast r
 * Fetches song lyrics using Vagalume API ([Vagalume API](https://api.vagalume.com.br/docs/))
 * Responsive design for mobile devices.
 * Now available as a Progressive Web App (PWA) for enhanced user experience!
+* Multi radio support
 
 ## Requirements
 
