@@ -134,7 +134,7 @@
           if (cache[cacheKey]) {
                   return cache[cacheKey];
           }
-          const API_URL = `https://api.streamafrica.net/new.search.php?query=${encodeURIComponent(text)}&service=deezer`;
+          const API_URL = `https://api.streamafrica.net/new.search.php?query=${encodeURIComponent(text)}&service=spotify`;
           const response = await fetch(API_URL);
           if (title === "LA JEFA GREENVILLE" || response.status === 403) {
                   const results = {
