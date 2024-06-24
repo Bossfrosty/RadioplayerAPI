@@ -4,12 +4,12 @@
   "description": "Instale nosso aplicativo e nos ouça onde quer que você esteja.",
   "icons": [
     {
-      "src": "assets/jailson.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/jailson.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "512x512"
     }
@@ -29,13 +29,13 @@
   ],
   "screenshots": [
     {
-      "src": "assets/jailson.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
     },
     {
-      "src": "assets/jailson.png",
+      "src": "assets/jailson_cover.png",
       "type": "image/png",
       "sizes": "540x720",
       "form_factor": "narrow"
