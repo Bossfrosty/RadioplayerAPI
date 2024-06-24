@@ -35,7 +35,7 @@
                         api: "get_stream_title.php?url=https://stream.zeno.fm/yn65fsaurfhvv",
                         stream_url: "https://stream.zeno.fm/yn65fsaurfhvv",
                         tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
-                        server: "spotify",
+                        server: "",
                         program: {
                             time: "00:00",
                             name: "Jailson Web Radio",
@@ -63,7 +63,7 @@
                         api: "get_stream_title.php?url=https://sv2.globalhostlive.com/proxy/bendistereo/stream2",
                         stream_url: "https://sv2.globalhostlive.com/proxy/bendistereo/stream2",
                         tv_url: "https://eu1.servers10.com:2020/VideoPlayer/8106?autoplay=1",
-                        server: "spotify",
+                        server: "",
                         program: {
                             time: "11:00",
                             name: "Bendición Stereo",
