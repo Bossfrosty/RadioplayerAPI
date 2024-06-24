@@ -134,7 +134,7 @@
           if (cache[cacheKey]) {
                   return cache[cacheKey];
           }
-          const API_URL = `https://api.streamafrica.net/new.search.php?query=${encodeURIComponent(text)}&service=spotify`;
+          const API_URL = `https://api.streamafrica.net/new.search.php?query=${encodeURIComponent(text)}&service=deezer`;
           const response = await fetch(API_URL);
           if (title === "LA JEFA GREENVILLE" || response.status === 403) {
                   const results = {
@@ -462,7 +462,7 @@
                       </a>
                       </div>`;
 
-  const API_URL = "https://api.streamafrica.net/metadata/index.php?z=";
+  const API_URL = "https://twj.es/radio_info/?radio_url=";
   const TIME_TO_REFRESH = window?.streams?.timeRefresh || 10000;
   let currentStation;
   let activeButton;

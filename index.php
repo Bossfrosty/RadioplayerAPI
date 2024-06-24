@@ -92,7 +92,7 @@
             <header class="header">
                 <div class="header-wrapper flex justify-between">
                     <a class="header-logo" href="#site">
-                        <img class="header-logo-img" src="assets/mixx-logo.svg" alt="logo" />
+                        <img class="header-logo-img" src="assets/radioplayer.svg" alt="logo" />
                     </a>
 
                     <div class="toggle-options flex items-start">
@@ -128,7 +128,7 @@
                             <span class="song-name station-name fw-700 m:fs-2 fs-5 color-title">Song</span>
                         </div>
                         <div class="player-artwork relative">
-                            <img alt="artwork" height="600" src="assets/mixx.png" width="600" />
+                            <img alt="artwork" height="600" src="assets/cover.png" width="600" />
                             <div class="player-program"></div>
                         </div>
 
