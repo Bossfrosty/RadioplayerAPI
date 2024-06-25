@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
         <meta name="theme-color" content="dark light" />
         <meta property="og:image" content="assets/defautl.png" />
-        <meta property="og:image:type" content="assets/default.png" />
+        <meta property="og:image:type" content="assets/default_logo.png" />
         <meta property="og:image:width" content="600" />
         <meta property="og:image:height" content="360" />
         <meta property="og:title" content="RadioPlayer" />
@@ -21,7 +21,7 @@
         <link href="manifest.json" rel="manifest" />
         <script>
             window.streams = {
-                timeRefresh: 5000,
+                timeRefresh: 10000,
                 stations: [
                     {
                         name: "Jailson Web Rádio",
@@ -55,7 +55,7 @@
                         name: "BENDICIÓN STEREO",
                         hash: "bendicion",
                         description: "Bendecidos para bendecir!",
-                        logo: "assets/default.png",
+                        logo: "assets/default_logo.png",
                         album:
                             "assets/cover.png",
                         cover:
@@ -87,7 +87,7 @@
     </head>
     <body class="preload">
         <div class="app">
-            <img src="assets/default.png" alt="cover" class="player-cover-image song-cover" height="100%" width="100%" />
+            <img src="assets/default_logo.png" alt="cover" class="player-cover-image song-cover" height="100%" width="100%" />
 
             <header class="header">
                 <div class="header-wrapper flex justify-between">
