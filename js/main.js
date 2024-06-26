@@ -276,7 +276,7 @@
                           song = sanitizeText(item.split(" - ")[1] || item);
                   } else if (api.songHistory) {
                           artist = item.artist;
-                          song = item.title;
+                          song = item.song;
                   }
                   return {
                           artist,
